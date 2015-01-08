@@ -1,0 +1,38 @@
+Amazon DataBase:
+
+Users:
+id : integer
+user_id : string
+first_name : string
+last_name : string
+email : string
+zip_code : integer
+street_num : integer
+city: string
+state: string
+phone_num: integer
+
+Orders:
+id: integer
+user_id : string
+order_num : integer
+time_order : datetime
+
+Purchases:
+id: integer
+order_num : integer
+item_number : integer
+item_name : string
+inv_num: integer
+
+Prices:
+id: integer
+price_value : integer
+item_number : integer
+discount_id: integer
+ccy_pair : string
+
+
+
+
+
